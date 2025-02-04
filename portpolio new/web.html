@@ -1,0 +1,393 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Luckiest+Guy&family=Pacifico&family=Spicy+Rice&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Chakra+Petch:ital,wght@0,300..700;1,300..700&family=Permanent+Marker&family=Ysabeau+SC:wght@1..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Diphylleia&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="main.js" defer></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+    
+        ScrollReveal({
+             reset: true,
+             distance:'60px',
+             duration:2500,
+             delay :400
+           
+             
+           
+            });
+            ScrollReveal().reveal('.img2, .para , .heading1 , .aw3 , .f_form' ,{ delay: 100,origin:'right' });
+           
+            ScrollReveal().reveal('.ddd, .about , .my1 , .heading, .aw1 , .contact_me, .follow', { delay: 300,origin:'left' });
+            ScrollReveal().reveal('.contactme , .myskills', { delay: 500,origin:'bottom' });
+            
+            ScrollReveal().reveal('.bar ,.aw2 , .button ', { delay: 500, origin: 'bottom' }); 
+            ScrollReveal().reveal('.projects ', { delay: 500, origin: 'top' }); 
+            ScrollReveal().reveal('.ico', { delay: 500, origin: 'top', interval:100}); 
+           
+
+
+
+            ScrollReveal().reveal('.Technical-bars .bar', {
+        interval: 200, // Delay between each skill bar
+        origin: 'left', // Animation starts from the left
+        afterReveal: function (el) {
+            // Trigger custom CSS animation for progress bar
+            const progressLine = el.querySelector('.progress-line span');
+            if (progressLine) {
+                progressLine.style.animationPlayState = 'running';
+            }
+        },
+        beforeReset: function (el) {
+            // Reset the scale of progress bars
+            const progressLine = el.querySelector('.progress-line span');
+            if (progressLine) {
+                progressLine.style.transform = 'scaleX(0)';
+                progressLine.style.animationPlayState = 'paused';
+            }
+        }
+    });
+});
+      
+    </script>
+
+ <!--Home page----->
+    <div id="home" class="all">
+        <div class="line">
+            <div class="new"> 
+                <img class="iri" src="images/lines.png" alt="Lines">
+                <div class="ddd">
+                    <h2 class="ga">I'm a <span class="text"></span></h2>
+                    <button class="button">
+                        <a href="https://drive.google.com/file/d/1hx3Rrs0fg24Zip54JXFFKMeV0udSeMcc/view?usp=sharing" style="color: white;">CV</a>
+                    </button>
+                    <h2 class="name">Wethum<br><span style="margin-left: 90px;">Kawsika</span></h2>
+                </div>
+                <img class="cross" src="images/cross.png" alt="Cross">
+                <div class="img2">
+                    <img class="ball" src="images/new.png" alt="Ball">
+                    <div style="animation: img 0.70s ease forwards;">
+                        <img class="wethum" src="images/wethum.png" alt="Wethum">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="num01">
+        <header class="head1">
+            <h2 class="h201">Wethum_Kawsika</h2>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                 
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                
+            </nav>
+        </header>
+    </div>
+     <!--About page----->
+    <div class="all2">
+        <div style="display: flex; flex-direction: row;">
+            <img src="images/my1.png" alt="Profile" class="my1" style="width: 450px; height: 450px; margin-left: 60px; margin-right: 50px; margin-top: 70px; ">
+            <div style="display: flex; flex-direction: column; align-items: center;margin-top: 100px;margin-left: 70px;">
+                <h2 class="about" style="margin:0; padding: 0; ">
+                    About <span style="color:aqua;">me</span>
+                </h2><br>
+                <div class="para" style="text-align: center;">
+                    <p style="color: white; line-height: 1.5; text-align:justify; margin: 0; line-height: 20px;padding-right: 100px;">
+                        <span style="font-size: 40px;margin-left: 50px;">C</span>
+                        reative and detail-oriented graphic designer
+                        with a passion for visual storytelling. Seeking
+                        an opportunity to leverage artistic skills,
+                        strong design sensibilities, and a keen eye
+                        for detail to contribute to innovative projects.
+                    </p>
+                    <br>
+                    
+                </div>
+                <a href ="#contact" class = "contactme">
+                    <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     Contact  Me</a>   
+                  
+            </div>
+            
+        </div>
+    </div>
+                <!--skill page----->
+               <div id="skill" class="all3">
+                <div style="display: flex;flex-direction: column;line-height: 12px;">
+                <h3 class="myskills">My Skills</h3>
+                <section>
+                    <div style="display: flex;flex-direction: row;">
+                    <div class="container1" id="skills">
+                        <h1 class="heading">Technical Skills</h1>
+                        <div class="Technical-bars">
+                            <!-- HTML Skill -->
+                            <div class="bar">
+                                <i class="bx bxl-html5" style="color:#ff6506;"></i>
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line html">
+                                    <span  class="s1" data-value="90%"></span>
+                                </div>
+                            </div>
+                            <!-- CSS Skill -->
+                            <div class="bar">
+                                <i class="bx bxl-css3" style="color:#0065fd;"></i>
+                                <div class="info">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="progress-line css">
+                                    <span class="s2" data-value="60%"></span>
+                                </div>
+                            </div>
+                            <!-- JavaScript Skill -->
+                            <div class="bar">
+                                <i class="bx bxl-javascript" style="color:#f8f40a;"></i>
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="progress-line javascript">
+                                    <span class="s3" data-value="85%"></span>
+                                </div>
+                            </div>
+                            <!-- Python Skill -->
+                            <div class="bar">
+                                <i class="bx bxl-python" style="color:#b50cc4;"></i>
+                                <div class="info">
+                                    <span>Python</span>
+                                </div>
+                                <div class="progress-line python">
+                                    <span class="s4" data-value="75%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <h1 class="heading1">Professional Skills</h1><br><br>
+                        <div class="radial-bars">
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">90%</div>
+                                <div class="text">Creativity</div>
+                            </div>
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">65%</div>
+                                <div class="text">Team Work</div>
+                            </div>
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">75%</div>
+                                <div class="text">Problem Solving</div>
+                            </div>
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">70%</div>
+                                <div class="text">Communication</div>
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+                </section>
+            </div>
+
+
+           </div>
+            <!--my projects page----->
+           <div id="project" class="all4">
+            <h2 class="projects">My Projects</h2>
+            <div style="display: flex; flex-direction: row; gap: 10px; justify-content: center; ">
+                <div class="aw1">
+                    <div style="display: flex;flex-direction: column;">
+                        <h4>G/Meepawala Amarasuriya College</h4>
+                        <h4>SCHOOL MANAGEMENT  SYSTEM</h4>
+                     <div>    <img src="images/meepawala1.png">
+                        <center><a href="https://www.facebook.com/share/p/1842tJVEEY/"><img src="images/link.png "class ="i1"style="  width: 50px; 
+                            height: 50px;"></a></center>
+             
+                     </div>
+                      </div>
+                  
+                </div>
+                <div class="aw2">
+                    <div style="display: flex;flex-direction: column;">
+                        <h4>G/Meepawala Amarasuriya College</h4>
+                        <h4>STUDENT MARKS GRADING SYSTEM</h4>
+                  <div>
+                    <a href="https://www.facebook.com/share/p/1842tJVEEY/"> <img src="images/meepawala2.png">
+                    <img src="images/link.png" class ="i1"style="  width: 50px; 
+                    height: 50px;
+                    margin-left: 180px;"></a> 
+             
+                </div>
+                     </div>
+                     </div>
+                <div class="aw3">
+                    <div style="display: flex;flex-direction: column;">
+                        <h4>FREELAN ENTERPRISES [PVT] LTD</h4>
+                        <h4>EMPLOYEE  MANAGEMENT  SYSTEM</h4>
+                    
+                       <div><img src="images/freelan.png">
+                        <img src="images/link.png" class ="i1"style="  width: 50px; 
+                        height: 50px;
+                        margin-left: 160px;">
+             
+                    </div> 
+
+                </div>
+                 </div>
+            </div>
+            <a href="www.facebook.com" class="seemore">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            See More</a>
+        </div>
+      <!--blog page----->
+        <div id="blog" class="all9">
+            <h3 class="blogs" style="text-align: center;" >My<span style="color: aqua;"> Blogs..</span></h3>
+          <br>
+          <div class="card">
+            <h2 style="text-align: center; margin: 20px 0;">Wethum Kawsika</h2>
+  
+            <span style="--i:0; display: inline-block; text-align: center;" onclick="showPopup('Spag Unity : Photography Cordinator')"><img src="images/spag.jpg" alt=""></span>
+            
+            <span style="--i:1;" onclick="showPopup(' An Inspiring Visit to CodeGen International')"><img src="images/gen1.jpg" alt=""></span>
+            <span style="--i:2;" onclick="showPopup('ROBOWAS: Arduino Compitition 2nd Place')"><img src="images/arduino.jpg" alt=""></span>
+            <span style="--i:3;" onclick="showPopup('Proffetional Photographer: Owner of ClickTime Photography')"><img src="images/camara.jpg" alt=""></span>
+            <span style="--i:4;" onclick="showPopup('An Inspiring Visit to CodeGen International')"><img src="images/gen3.jpg" alt=""></span>
+            <span style="--i:5;" onclick="showPopup('SPAG UNITY-Proffetional Photographer')"><img src="images/spag.jpg" alt=""></span>
+            <span style="--i:6;" onclick="showPopup('An Inspiring Visit to CodeGen International')"><img src="images/gen2.jpg" alt=""></span>
+            <span style="--i:7;" onclick="showPopup('ROBOWAS: Arduino Compitition 2nd Place')"><img src="images/robo.jpg" alt=""></span>
+        </div>
+        
+        <!-- Pop-up -->
+        <div id="popup" class="popup">
+            <p id="popup-text"></p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+        
+              
+           </div>
+            <!--Contact page----->
+           <div id="contact" class="all7">
+            <h3 class="contact_me" style="text-align: center;margin-left: 400px;" >Contact<span style="color: aqua;"> Me</span></h3>
+            <div style="display: flex; flex-direction: row;margin-left: 30px;">
+                <div style="margin-left: 50px;background-color: #000000;  border: 1px solid rgb(126, 127, 127);border-radius: 10px;
+   width: 400px;">
+                     <h4 class="info2">Contact Info</h4>
+                    <ul style="list-style: none;margin-top: 50px;margin-top: -20px;">
+                    <li class="info_li" style="margin-top: 10px; "><img src="images/location.png" alt="" style="width: 20px;height: 25px;"> &nbsp; Lokugewaththa,Narawala,Poddala,Galle</li>
+                    <li class="info_li" style="margin-top: 10px;"><img src="images/email.png" alt="" style="width: 25px;height: 25px;">&nbsp; &nbsp;wethum4015@gmail.com</li>
+                    <li class="info_li" style="margin-top: 10px;"><img src="images/phone.png" alt="" style="width: 25px;height: 25px;">&nbsp;&nbsp;070-5537000</li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.2537539410305!2d80.2289943!3d6.096484299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae171dad29c68b7%3A0xef01c5e0bd5eb6b5!2sAura%20cake!5e0!3m2!1sen!2slk!4v1738637021122!5m2!1sen!2slk" width="400" height="200" style="border:0;margin-top: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                <div>
+            <form class="f" id="contact-form">
+                        <div style="margin-left: 30px;">
+                            <label for="name" class="la">Full Name:</label><br>
+                            <input type="text" id="name" placeholder="Enter your Full Name" name="name" class="f1" required><br><br>
+                            <label for="email" class="la">Email:</label><br>
+                            <input type="email" id="email" placeholder="Enter Email" name="email" class="f2" required><br><br>
+                            <label for="msg" class="la">Message:</label><br>
+                            <textarea id="msg" placeholder="Type the Message" name="msg" class="f3" rows="4" required></textarea><br><br>
+                            <button class="btn-border-reveal" value="Submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                </div>        
+            </div>
+        
+         <!--Fallow page----->
+               <div class="all8">
+                <div  style="margin-left: 160px; display: flex; flex-direction: row;">
+                    <h3 class="follow" >Follow<span style="color: aqua;"> Me</span></h3>
+                    <div style="display: flex;flex-direction: column; ">
+                        <div style="display: flex; flex-direction: column;margin-top: 120px;margin-left: 250px; padding:0">
+                   
+                        <div class="ico" > 
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr#" style="color:white;"><i class="fa-brands fa-facebook" ></i></a>
+                          <i class="fa-brands fa-square-whatsapp"></i>
+                           </a>
+                            <a href="https://www.instagram.com/" style="color:white;"><i class="fa-brands fa-instagram"></i>
+                          </a>
+                            <a href="https://www.linkedin.com/feed/" style="color:white;"><i class="fa-brands fa-linkedin"></i>
+                            </a></div>
+                            <div class="ico">
+
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-telegram"></i>
+                        
+                        </div>
+                     </div>
+                    </div>
+                 </div>
+                </div>
+                   
+                </div>
+
+              
+                <div style=" height: 50px; background-color:#08082e;">
+                     <!--footer----->
+               <footer style="height: 10px;">
+                <div style="margin-bottom:200px">
+                    <hr style="margin:0; margin-left: 50px; padding: 0; background-color: aqua; width: 90%;height: 2px;border: none;">
+
+
+                    <div style="display: flex; flex-direction: row;">
+                    <h2 class="h202">Wethum_Kawsika <span style="margin-left: 500px; font-size: 15px;">Copyright © 2003-2025 Wethum kawsika All rights reserved.</span></h2>
+                </div> 
+            </div> 
+                </div>
+               
+               </footer>
+            </div>
+                <script src="main.js"></script>
+                
+            
+              </body>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+</html>
